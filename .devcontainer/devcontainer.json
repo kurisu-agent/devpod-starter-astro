@@ -2,6 +2,7 @@
   "name": "Astro Starter",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
   "forwardPorts": [4321],
+  "onCreateCommand": "bash scripts/scaffold.sh",
   "postCreateCommand": "npm install",
   "customizations": {
     "vscode": {
